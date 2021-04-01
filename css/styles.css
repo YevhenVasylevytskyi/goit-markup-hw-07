@@ -106,7 +106,7 @@ img {
 
 /*стили навигации*/
 
-.header-portfolio {
+.header_portfolio {
   border-bottom: 1px solid #ececec;
 }
 
@@ -694,7 +694,7 @@ img {
   margin-bottom: 50px;
 }
 
-.filter-button {
+.filter-list__btn {
   min-width: 73px;
   padding-left: 22px;
   padding-right: 22px;
@@ -716,13 +716,13 @@ img {
     box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 
-.filter-item:not(:last-child) {
+.filter-list__item:not(:last-child) {
   margin-right: 8px;
 }
 
 /*при наведении*/
-.filter-button:hover,
-.filter-button:focus {
+.filter-list__btn:hover,
+.filter-list__btn:focus {
   cursor: pointer;
   color: var(--background-button-color);
   background-color: var(--accent-color);
@@ -740,13 +740,13 @@ img {
   margin-top: -30px;
 }
 
-.projects-item {
+.projects-list__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
 
-.projects-item-content-wrapper {
+.projects-list__wrapper {
   position: relative;
   overflow: hidden;
 }
@@ -760,7 +760,7 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects-list-owerlay {
+.projects-list__owerlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -780,12 +780,12 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects-link:hover .projects-list-owerlay,
-.projects-link:focus .projects-list-owerlay {
+.projects-link:hover .projects-list__owerlay,
+.projects-link:focus .projects-list__owerlay {
   transform: translateY(0%);
 }
 
-.projects-title-name {
+.projects-list__name {
   display: block;
   padding-left: 24px;
   padding-right: 24px;
@@ -796,7 +796,7 @@ img {
   border-right: 1px solid #eeeeee;
 }
 
-.projects-title {
+.projects-list__title {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -806,7 +806,7 @@ img {
 }
 
 /*тип проекты*/
-.projects-description {
+.projects-list__description {
   display: inline-block;
   font-size: 16px;
   line-height: 1.88;
