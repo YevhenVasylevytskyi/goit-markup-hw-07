@@ -1,0 +1,39 @@
+.footer {
+  background-color: var(--backround-footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-info {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  color: var(--footer-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-address {
+  margin-right: 70px;
+}
+
+.footer-social-link {
+  margin-right: 93px;
+}
+
+.footer-email {
+  margin-left: auto;
+  display: inline-block;
+  width: 570px;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+}

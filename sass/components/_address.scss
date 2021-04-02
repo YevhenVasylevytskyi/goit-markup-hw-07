@@ -1,0 +1,19 @@
+.address {
+  margin-top: 20px;
+}
+
+.address__link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-color);
+}
+
+.address_item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.address__mail,
+.address__contact {
+  color: var(--footer-link-contact-color);
+}

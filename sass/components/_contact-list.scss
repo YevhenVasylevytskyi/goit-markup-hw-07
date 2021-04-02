@@ -1,0 +1,43 @@
+.contact-list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.contact-list__item:not(:first-child) {
+  margin-left: 50px;
+}
+
+/*маил, тел*/
+.contact-list__mail-link,
+.contact-list__tell-link {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  transition: color var(--transition-duration) var(--transition-timing-function);
+}
+
+/*при наведении*/
+.contact-list__mail-link:hover,
+.contact-list__mail-link:focus,
+.contact-list__tell-link:hover,
+.contact-list__tell-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-list__logo {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.contact-list__mail-link:hover svg,
+.contact-list__mail-link:focus svg,
+.contact-list__tell-link:hover svg,
+.contact-list__tell-link:focus svg {
+  fill: currentColor;
+}
