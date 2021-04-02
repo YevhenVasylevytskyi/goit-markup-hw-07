@@ -206,7 +206,7 @@ img {
 
 /*герой*/
 .hero {
-  background-image: linear-gradient(#2f303a, #2f303a), url("../images/index/hero.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/index/hero.jpg");
   background-repeat: no-repeat;
   max-width: 1600px;
   background-color: var(--hero-color);
