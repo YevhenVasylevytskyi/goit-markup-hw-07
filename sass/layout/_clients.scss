@@ -1,52 +1,53 @@
 .clients {
   padding-top: var(--section-pt);
   padding-bottom: var(--section-pb);
-}
 
-.clients__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
+  &__title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+  }
 
-.clients__list {
-  display: flex;
-  margin-left: -30px;
-  margin-top: -30px;
-}
+  &__list {
+    display: flex;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
 
-.clients__item {
-  margin-left: 30px;
-  margin-top: 30px;
-  flex-basis: calc((100% - 150px) / 6);
-}
+  &__item {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% - 150px) / 6);
+  }
 
-.clients__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  width: 170px;
-  height: 90px;
-  border: 1px solid var(--link-social-color);
-  transition: background-color var(--transition-duration)
-    var(--transition-timing-function);
-}
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid var(--link-social-color);
+    border-radius: 4px;
+    transition: background-color var(--transition-duration)
+      var(--transition-timing-function);
+  }
 
-.clients_logo {
-  fill: var(--link-social-color);
-  transition: fill var(--transition-duration) var(--transition-timing-function);
-}
+  &__link:hover,
+  &__link:focus {
+    border: 1px solid var(--accent-color);
+  }
 
-.clients__link:hover,
-.clients__link:focus {
-  border: 1px solid var(--accent-color);
-}
+  &__logo {
+    fill: var(--link-social-color);
+    transition: fill var(--transition-duration)
+      var(--transition-timing-function);
+  }
 
-.clients__link:hover svg,
-.clients__link:focus svg {
-  fill: var(--accent-color);
+  &__link:hover svg,
+  &__link:focus svg {
+    fill: var(--accent-color);
+  }
 }

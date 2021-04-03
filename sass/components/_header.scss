@@ -1,13 +1,10 @@
-.header_portfolio {
-  border-bottom: 1px solid #ececec;
-}
+.header {
+  &_portfolio {
+    border-bottom: 1px solid #ececec;
+  }
 
-.header .container {
-  display: flex;
-  align-items: center;
-}
-
-.header-nav {
-  display: flex;
-  align-items: center;
+  &-nav {
+    display: flex;
+    align-items: center;
+  }
 }
