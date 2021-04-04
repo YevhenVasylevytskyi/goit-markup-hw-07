@@ -44,8 +44,8 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &:hover &__owerlay,
-  &:focus &__owerlay {
+  &__item:hover &__owerlay,
+  &__item:focus &__owerlay {
     transform: translateY(0%);
   }
 
