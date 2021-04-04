@@ -32,6 +32,12 @@
   overflow: hidden;
 }
 
+.is-hidden {
+  opacity: 0;
+  /*visibility: hidden;*/
+  pointer-events: none;
+}
+
 body {
   font-family: var(--main-font);
   color: var(--main-color);
